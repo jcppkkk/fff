@@ -1,0 +1,11 @@
+AccessModifierOffset: 0
+AllowShortIfStatementsOnASingleLine: false
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+BasedOnStyle: LLVM
+BinPackParameters: false
+BreakBeforeBraces: Linux
+IndentCaseLabels: false
+IndentWidth: 4
+PenaltyReturnTypeOnItsOwnLine: 1000
+UseTab: Never
