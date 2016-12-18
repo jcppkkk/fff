@@ -2598,9 +2598,9 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0, ARG1_TYPE arg1, ARG2_TYPE arg2);                      \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0, ARG1_TYPE arg1, ARG2_TYPE arg2);                      \
     } FUNCNAME##_Fake;                                                         \
     extern FUNCNAME##_Fake FUNCNAME##_fake;                                    \
@@ -2663,9 +2663,9 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0, ARG1_TYPE arg1, ARG2_TYPE arg2, ARG3_TYPE arg3);      \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0, ARG1_TYPE arg1, ARG2_TYPE arg2, ARG3_TYPE arg3);      \
     } FUNCNAME##_Fake;                                                         \
     extern FUNCNAME##_Fake FUNCNAME##_fake;                                    \
@@ -2732,13 +2732,13 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
          ARG3_TYPE arg3,                                                       \
          ARG4_TYPE arg4);                                                      \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -2812,14 +2812,14 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
          ARG3_TYPE arg3,                                                       \
          ARG4_TYPE arg4,                                                       \
          ARG5_TYPE arg5);                                                      \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -2899,7 +2899,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -2907,7 +2907,7 @@ FFF_END_EXTERN_C
          ARG4_TYPE arg4,                                                       \
          ARG5_TYPE arg5,                                                       \
          ARG6_TYPE arg6);                                                      \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -2996,7 +2996,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3005,7 +3005,7 @@ FFF_END_EXTERN_C
          ARG5_TYPE arg5,                                                       \
          ARG6_TYPE arg6,                                                       \
          ARG7_TYPE arg7);                                                      \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3098,7 +3098,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3108,7 +3108,7 @@ FFF_END_EXTERN_C
          ARG6_TYPE arg6,                                                       \
          ARG7_TYPE arg7,                                                       \
          ARG8_TYPE arg8);                                                      \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3205,7 +3205,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3216,7 +3216,7 @@ FFF_END_EXTERN_C
          ARG7_TYPE arg7,                                                       \
          ARG8_TYPE arg8,                                                       \
          ARG9_TYPE arg9);                                                      \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3321,7 +3321,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3333,7 +3333,7 @@ FFF_END_EXTERN_C
          ARG8_TYPE arg8,                                                       \
          ARG9_TYPE arg9,                                                       \
          ARG10_TYPE arg10);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3447,7 +3447,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3460,7 +3460,7 @@ FFF_END_EXTERN_C
          ARG9_TYPE arg9,                                                       \
          ARG10_TYPE arg10,                                                     \
          ARG11_TYPE arg11);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3578,7 +3578,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3592,7 +3592,7 @@ FFF_END_EXTERN_C
          ARG10_TYPE arg10,                                                     \
          ARG11_TYPE arg11,                                                     \
          ARG12_TYPE arg12);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3716,7 +3716,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3731,7 +3731,7 @@ FFF_END_EXTERN_C
          ARG11_TYPE arg11,                                                     \
          ARG12_TYPE arg12,                                                     \
          ARG13_TYPE arg13);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3860,7 +3860,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -3876,7 +3876,7 @@ FFF_END_EXTERN_C
          ARG12_TYPE arg12,                                                     \
          ARG13_TYPE arg13,                                                     \
          ARG14_TYPE arg14);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4010,7 +4010,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4027,7 +4027,7 @@ FFF_END_EXTERN_C
          ARG13_TYPE arg13,                                                     \
          ARG14_TYPE arg14,                                                     \
          ARG15_TYPE arg15);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4169,7 +4169,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4187,7 +4187,7 @@ FFF_END_EXTERN_C
          ARG14_TYPE arg14,                                                     \
          ARG15_TYPE arg15,                                                     \
          ARG16_TYPE arg16);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4336,7 +4336,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4355,7 +4355,7 @@ FFF_END_EXTERN_C
          ARG15_TYPE arg15,                                                     \
          ARG16_TYPE arg16,                                                     \
          ARG17_TYPE arg17);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4508,7 +4508,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4528,7 +4528,7 @@ FFF_END_EXTERN_C
          ARG16_TYPE arg16,                                                     \
          ARG17_TYPE arg17,                                                     \
          ARG18_TYPE arg18);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4687,7 +4687,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -4708,7 +4708,7 @@ FFF_END_EXTERN_C
          ARG17_TYPE arg17,                                                     \
          ARG18_TYPE arg18,                                                     \
          ARG19_TYPE arg19);                                                    \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -6836,9 +6836,9 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0, ARG1_TYPE arg1, va_list ap);                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0, ARG1_TYPE arg1, va_list ap);                          \
     } FUNCNAME##_Fake;                                                         \
     extern FUNCNAME##_Fake FUNCNAME##_fake;                                    \
@@ -6891,9 +6891,9 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0, ARG1_TYPE arg1, ARG2_TYPE arg2, va_list ap);          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0, ARG1_TYPE arg1, ARG2_TYPE arg2, va_list ap);          \
     } FUNCNAME##_Fake;                                                         \
     extern FUNCNAME##_Fake FUNCNAME##_fake;                                    \
@@ -6949,13 +6949,13 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
          ARG3_TYPE arg3,                                                       \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7020,14 +7020,14 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
          ARG3_TYPE arg3,                                                       \
          ARG4_TYPE arg4,                                                       \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7100,7 +7100,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7108,7 +7108,7 @@ FFF_END_EXTERN_C
          ARG4_TYPE arg4,                                                       \
          ARG5_TYPE arg5,                                                       \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7186,7 +7186,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7195,7 +7195,7 @@ FFF_END_EXTERN_C
          ARG5_TYPE arg5,                                                       \
          ARG6_TYPE arg6,                                                       \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7279,7 +7279,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7289,7 +7289,7 @@ FFF_END_EXTERN_C
          ARG6_TYPE arg6,                                                       \
          ARG7_TYPE arg7,                                                       \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7378,7 +7378,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7389,7 +7389,7 @@ FFF_END_EXTERN_C
          ARG7_TYPE arg7,                                                       \
          ARG8_TYPE arg8,                                                       \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7482,7 +7482,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7494,7 +7494,7 @@ FFF_END_EXTERN_C
          ARG8_TYPE arg8,                                                       \
          ARG9_TYPE arg9,                                                       \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7595,7 +7595,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7608,7 +7608,7 @@ FFF_END_EXTERN_C
          ARG9_TYPE arg9,                                                       \
          ARG10_TYPE arg10,                                                     \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7716,7 +7716,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7730,7 +7730,7 @@ FFF_END_EXTERN_C
          ARG10_TYPE arg10,                                                     \
          ARG11_TYPE arg11,                                                     \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7842,7 +7842,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -7857,7 +7857,7 @@ FFF_END_EXTERN_C
          ARG11_TYPE arg11,                                                     \
          ARG12_TYPE arg12,                                                     \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8108,7 +8108,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8125,7 +8125,7 @@ FFF_END_EXTERN_C
          ARG13_TYPE arg13,                                                     \
          ARG14_TYPE arg14,                                                     \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8250,7 +8250,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8268,7 +8268,7 @@ FFF_END_EXTERN_C
          ARG14_TYPE arg14,                                                     \
          ARG15_TYPE arg15,                                                     \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8401,7 +8401,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8420,7 +8420,7 @@ FFF_END_EXTERN_C
          ARG15_TYPE arg15,                                                     \
          ARG16_TYPE arg16,                                                     \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8558,7 +8558,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8578,7 +8578,7 @@ FFF_END_EXTERN_C
          ARG16_TYPE arg16,                                                     \
          ARG17_TYPE arg17,                                                     \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8720,7 +8720,7 @@ FFF_END_EXTERN_C
         DECLARE_ALL_FUNC_COMMON                                                \
         DECLARE_VALUE_FUNCTION_VARIABLES(RETURN_TYPE)                          \
         DECLARE_CUSTOM_FAKE_SEQ_VARIABLES                                      \
-        RETURN_TYPE (*custom_fake)                                             \
+        RETURN_TYPE(*custom_fake)                                              \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8741,7 +8741,7 @@ FFF_END_EXTERN_C
          ARG17_TYPE arg17,                                                     \
          ARG18_TYPE arg18,                                                     \
          va_list ap);                                                          \
-        RETURN_TYPE (**custom_fake_seq)                                        \
+        RETURN_TYPE(**custom_fake_seq)                                         \
         (ARG0_TYPE arg0,                                                       \
          ARG1_TYPE arg1,                                                       \
          ARG2_TYPE arg2,                                                       \
@@ -8859,54 +8859,61 @@ FFF_END_EXTERN_C
         ARG10_TYPE, ARG11_TYPE, ARG12_TYPE, ARG13_TYPE, ARG14_TYPE,            \
         ARG15_TYPE, ARG16_TYPE, ARG17_TYPE, ARG18_TYPE, ...)
 
-#define PP_NARG_MINUS2(...) PP_NARG_MINUS2_(__VA_ARGS__, PP_RSEQ_N_MINUS2())
+#define FAKE_VOID_FUNC(FUNCNAME, ...)                                          \
+    FAKE_VOID1(PP_NARG(__VA_ARGS__), FUNCNAME, ##__VA_ARGS__)
+#define FAKE_VOID1(N, ...) FAKE_VOID2(N, __VA_ARGS__)
+#define FAKE_VOID2(N, ...) FAKE_VOID_FUNC##N(__VA_ARGS__)
 
-#define PP_NARG_MINUS2_(...) PP_ARG_MINUS2_N(__VA_ARGS__)
+#define FAKE_VOID_FUNC_VARARG(FUNCNAME, ...)                                   \
+    FAKE_VOID_VA1(PP_NARG(__VA_ARGS__), FUNCNAME, ##__VA_ARGS__)
+#define FAKE_VOID_VA1(N, ...) FAKE_VOID_VA2(N, __VA_ARGS__)
+#define FAKE_VOID_VA2(N, ...) FAKE_VOID_FUNC##N##_VARARG(__VA_ARGS__)
 
-#define PP_ARG_MINUS2_N(returnVal, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9,     \
-                        _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, N,   \
-                        ...)                                                   \
+#define FAKE_VALUE_FUNC(RET, FUNCNAME, ...)                                    \
+    FAKE_VALUE1(PP_NARG(__VA_ARGS__), RET, FUNCNAME, ##__VA_ARGS__)
+#define FAKE_VALUE1(N, ...) FAKE_VALUE2(N, __VA_ARGS__)
+#define FAKE_VALUE2(N, ...) FAKE_VALUE_FUNC##N(__VA_ARGS__)
+
+#define FAKE_VALUE_FUNC_VARARG(RET, FUNCNAME, ...)                             \
+    FAKE_VALUE_VA1(PP_NARG(__VA_ARGS__), RET, FUNCNAME, ##__VA_ARGS__)
+#define FAKE_VALUE_VA1(N, ...) FAKE_VALUE_VA2(N, __VA_ARGS__)
+#define FAKE_VALUE_VA2(N, ...) FAKE_VALUE_FUNC##N##_VARARG(__VA_ARGS__)
+
+/* PP_ARG_N and it's helper macros */
+#define PP_ARG_N(_1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, _13, _14,  \
+                 _15, _16, _17, _18, _19, _20, _21, _22, _23, _24, _25, _26,   \
+                 _27, _28, _29, _30, _31, _32, _33, _34, _35, _36, _37, _38,   \
+                 _39, _40, _41, _42, _43, _44, _45, _46, _47, _48, _49, _50,   \
+                 _51, _52, _53, _54, _55, _56, _57, _58, _59, _60, _61, _62,   \
+                 _63, N, ...)                                                  \
     N
 
-#define PP_RSEQ_N_MINUS2()                                                     \
-    19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+#define PP_RSEQ_N()                                                            \
+    63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46,    \
+        45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29,    \
+        28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12,    \
+        11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
 
-#define FAKE_VALUE_FUNC(...)                                                   \
-    FUNC_VALUE_(PP_NARG_MINUS2(__VA_ARGS__), __VA_ARGS__)
+#define PP_NARG_(...) PP_ARG_N(__VA_ARGS__)
 
-#define FUNC_VALUE_(N, ...) FUNC_VALUE_N(N, __VA_ARGS__)
+#define PP_COMMASEQ_N()                                                        \
+    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, \
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,   \
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0
 
-#define FUNC_VALUE_N(N, ...) FAKE_VALUE_FUNC##N(__VA_ARGS__)
+#define PP_COMMA(...) ,
 
-#define PP_NARG_MINUS1(...) PP_NARG_MINUS1_(__VA_ARGS__, PP_RSEQ_N_MINUS1())
+#define PP_HASCOMMA(...) PP_NARG_(__VA_ARGS__, PP_COMMASEQ_N())
 
-#define PP_NARG_MINUS1_(...) PP_ARG_MINUS1_N(__VA_ARGS__)
+#define PP_NARG(...)                                                           \
+    PP_NARG_HELPER1(PP_HASCOMMA(__VA_ARGS__),                                  \
+                    PP_HASCOMMA(PP_COMMA __VA_ARGS__()),                       \
+                    PP_NARG_(__VA_ARGS__, PP_RSEQ_N()))
 
-#define PP_ARG_MINUS1_N(_0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, \
-                        _13, _14, _15, _16, _17, _18, _19, _20, N, ...)        \
-    N
-
-#define PP_RSEQ_N_MINUS1()                                                     \
-    20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
-
-#define FAKE_VOID_FUNC(...) FUNC_VOID_(PP_NARG_MINUS1(__VA_ARGS__), __VA_ARGS__)
-
-#define FUNC_VOID_(N, ...) FUNC_VOID_N(N, __VA_ARGS__)
-
-#define FUNC_VOID_N(N, ...) FAKE_VOID_FUNC##N(__VA_ARGS__)
-
-#define FAKE_VALUE_FUNC_VARARG(...)                                            \
-    FUNC_VALUE_VARARG_(PP_NARG_MINUS2(__VA_ARGS__), __VA_ARGS__)
-
-#define FUNC_VALUE_VARARG_(N, ...) FUNC_VALUE_VARARG_N(N, __VA_ARGS__)
-
-#define FUNC_VALUE_VARARG_N(N, ...) FAKE_VALUE_FUNC##N##_VARARG(__VA_ARGS__)
-
-#define FAKE_VOID_FUNC_VARARG(...)                                             \
-    FUNC_VOID_VARARG_(PP_NARG_MINUS1(__VA_ARGS__), __VA_ARGS__)
-
-#define FUNC_VOID_VARARG_(N, ...) FUNC_VOID_VARARG_N(N, __VA_ARGS__)
-
-#define FUNC_VOID_VARARG_N(N, ...) FAKE_VOID_FUNC##N##_VARARG(__VA_ARGS__)
+#define PP_NARG_HELPER1(a, b, N) PP_NARG_HELPER2(a, b, N)
+#define PP_NARG_HELPER2(a, b, N) PP_NARG_HELPER3_##a##b(N)
+#define PP_NARG_HELPER3_01(N) 0
+#define PP_NARG_HELPER3_00(N) 1
+#define PP_NARG_HELPER3_11(N) N
 
 #endif /* FAKE_FUNCTIONS */
